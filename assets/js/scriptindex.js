@@ -7,11 +7,11 @@ function validar(){
     console.log(eNombre)
     let vNombre = eNombre.value.trim()
     console.log(vNombre)
-    console.log(vNombre.lenght)
-    if(vNombre.lenght==0 ){
+    console.log(vNombre.length)
+    if(vNombre.length==0 ){
         console.log("Debes completar este campo")
     }
-    else if(vNombre.lenght > 3){
+    else if(vNombre.length > 3){
         console.log("Cumple")
     }
     else{
