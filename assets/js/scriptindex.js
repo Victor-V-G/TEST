@@ -3,8 +3,8 @@
 en el boton, se ejecutara este script*/
 function validar(){
     /*SEGMENTO DE LA CELDA NOMBRE*/
-    let eNombre = document.getElementById("nombre") /*RECUPERA EL ELEMENTO MEDIANTE LA ID NOMBRE, ALMACENANDOLO EN eNombre */
-    let vNombre = eNombre.value
+    let eNombre = document.getElementById("nombre") /*RECUPERA EL ELEMENTO MEDIANTE LA ID NOMBRE, ALMACENANDOLO EN eNombre (ELEMENTO NOMBRE)*/
+    let vNombre = eNombre.value /*ALMACENA EL ELEMENTO NOMBRE DENTRO DE vNombre SOLO POR INPUT REALIZADO, ALMACENA EL (VALOR NOMBRE)*/
     let eErrorNombre = document.getElementById("errorNombre")
     
     let eApellido = document.getElementById("apellido")
